@@ -74,7 +74,7 @@ Cada arquivo `.sql` contém uma consulta específica e comentada para facilitar 
 
 ## 👨‍💻 Autor
 
-**Eduardo Gabriel Santos Bretas Pinheiro**
+**Eduardo Gabriel Santos Bretas Pinheiro** | 
 Estudante de Engenharia de dados | Análise de Dados com SQL e Python
 🔗 [GitHub](https://github.com/EduardoGSBP)
 
