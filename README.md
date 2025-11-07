@@ -1,59 +1,87 @@
 # dvdrental-sql-analysis
-Análise de dados do banco dvdrental usando PostgreSQL e SQL
-🎬 Projeto SQL – Análise de Dados da Locadora DVD Rental
+# 🎬 Projeto SQL – Análise de Dados da Locadora DVD Rental
 
-📊 Explorando dados de uma locadora fictícia usando PostgreSQL e consultas SQL.
-O objetivo é extrair insights de negócio sobre clientes, faturamento, filmes e funcionários.
+## 🎯 Objetivo
 
-🎯 Objetivo
+Explorar o banco de dados **dvdrental** (PostgreSQL) com consultas SQL que simulam perguntas de negócio reais de uma locadora de filmes.
+O projeto busca identificar padrões de comportamento de clientes, desempenho de funcionários e o faturamento da empresa ao longo do tempo.
 
-Analisar o banco de dados dvdrental e responder perguntas importantes, como:
+---
 
-👥 Quais clientes mais alugam filmes?
+## 🧠 Perguntas que o projeto responde
 
-🎥 Quais filmes são os mais populares?
+* 👥 Quais são os **clientes que mais alugam filmes**?
+* 🎞️ Quais são os **filmes mais populares**?
+* 💼 Qual **funcionário realizou mais atendimentos**?
+* 💰 Qual o **faturamento total por mês**?
+* 🎬 Quais **categorias de filmes** são mais alugadas?
 
-💰 Qual é o faturamento total por mês?
+---
 
-👩‍💼 Qual funcionário realizou mais atendimentos?
+## 🛠️ Tecnologias utilizadas
 
-🏆 Quais categorias de filmes fazem mais sucesso?
+* **PostgreSQL**
+* **PgAdmin 4**
+* **SQL puro (consultas, joins, funções e agregações)**
 
-🧠 Consultas realizadas
-Nº	Consulta	Descrição
-1️⃣	Top 10 clientes mais ativos	Mostra os clientes com mais aluguéis realizados.
-2️⃣	Filmes mais alugados	Retorna os filmes mais populares entre os clientes.
-3️⃣	Faturamento mensal	Exibe o total arrecadado mês a mês.
-4️⃣	Funcionário destaque	Mostra quem realizou mais atendimentos.
-5️⃣	Categorias populares	Exibe as categorias com mais aluguéis.
-⚙️ Tecnologias utilizadas
+---
 
-🐘 PostgreSQL
+## 📂 Estrutura do projeto
 
-🖥️ PgAdmin 4
-
-💾 Banco de dados: dvdrental
-
-📂 Estrutura do projeto
+```
 dvdrental-sql-analysis/
-│
 ├── README.md
-│
 └── queries/
     ├── 01_clientes_ativos.sql
     ├── 02_filmes_populares.sql
     ├── 03_receita_mensal.sql
     ├── 04_funcionarios.sql
     └── 05_categoria_popular.sql
-📈 Resultados esperados
+```
 
-✅ Identificar clientes mais fiéis
-✅ Descobrir categorias mais alugadas
-✅ Visualizar evolução de faturamento mensal
-✅ Avaliar desempenho de funcionários
+Cada arquivo `.sql` contém uma consulta específica e comentada para facilitar o entendimento.
 
-👨‍💻 Autor
+---
 
-Eduardo Gabriel Santos Bretas Pinheiro
-📍 Belo Horizonte, MG – Brasil
-🔗 GitHub: EduardoGSBP
+## 🧩 Consultas incluídas
+
+1️⃣ **Top 10 clientes que mais alugam filmes**
+2️⃣ **Filmes mais alugados**
+3️⃣ **Faturamento mensal total**
+4️⃣ **Funcionário com mais atendimentos**
+5️⃣ **Categorias de filmes mais populares**
+
+---
+
+## 📊 Resultados esperados
+
+* Lista dos **clientes mais fiéis**
+* Ranking dos **filmes mais alugados**
+* Evolução **mensal do faturamento**
+* Desempenho individual de **funcionários**
+* Identificação das **categorias mais rentáveis**
+
+---
+
+## 🚀 Como usar
+
+1. Restaure o banco de dados **dvdrental.tar** no PostgreSQL.
+2. Abra o **PgAdmin 4**.
+3. Execute cada consulta SQL localizada na pasta `/queries`.
+4. Analise os resultados e gere insights sobre o desempenho da locadora.
+
+---
+
+## 👨‍💻 Autor
+
+**Eduardo Gabriel Santos Bretas Pinheiro**
+Estudante de Engenharia de dados | Análise de Dados com SQL e Python
+🔗 [GitHub](https://github.com/EduardoGSBP)
+
+---
+
+## 💬 Conclusão
+
+Este projeto foi criado com o objetivo de **praticar comandos SQL** aplicados em um cenário realista.
+A análise do banco *dvdrental* ajuda a entender como **consultas e agregações** podem transformar dados brutos em informações úteis para a tomada de decisão.
+
