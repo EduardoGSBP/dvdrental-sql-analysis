@@ -1,9 +1,9 @@
 # dvdrental-sql-analysis
-# 🎬 Projeto SQL – Análise de Dados da Locadora DVD Rental
+# 🎬 Projeto SQL – Análise de Dados  DVD Rental
 
 ## 🎯 Objetivo
 
-Explorar o banco de dados **dvdrental** (PostgreSQL) com consultas SQL que simulam perguntas de negócio reais de uma locadora de filmes.
+Explorar o banco de dados **dvdrental** (PostgreSQL) com consultas SQL que simulam perguntas de uma locadora de filmes.
 O projeto busca identificar padrões de comportamento de clientes, desempenho de funcionários e o faturamento da empresa ao longo do tempo.
 
 ---
